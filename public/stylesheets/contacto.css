@@ -1,0 +1,147 @@
+#particles-js{
+    background: #101520;
+    width: 100%;
+    position: absolute;
+    height: 1070px;
+}
+
+.bnr-sub-title-1{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 20px 0px;
+    font-weight: 700;
+    padding-top: 40px;
+}
+.info i{
+    color:#be9e21;
+    background: transparent;
+    font-size: 32px;
+    float: left;
+    padding-top: 18px;
+    
+}
+
+.info p{
+   padding-top: 24px;
+   color: #fff;
+   font-weight: lighter;
+   font-size: 17px;
+   
+   
+}
+.info .email p {
+  padding-top: 5px;
+}
+.social-links{
+    padding-bottom: 25px;
+}
+.social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background:#333;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    margin-top:15px;
+    cursor: pointer;
+    
+}
+.social-links a:hover{
+    background: #be9e21;
+    color: #fff;
+}
+.form{
+    margin-top: 25px;
+
+}
+#nombre, #tel, #email, #mensaje{
+     border-radius: 0px;
+     color: #be9e21 !important;
+     border-color: #be9e21;
+     font-size: 14px;
+}
+.envio{
+    background-color: transparent;
+    border-radius: 60px;
+    color: #be9e21;
+    font-weight: 400;
+    border: 1px solid #be9e21;
+    font-size: 14px;
+    padding: 6px 20px;
+    margin-bottom: 20px;
+}
+.envio:hover{
+    background-color:#000000;
+}
+.mensaje{
+    color: #fff;
+    font-weight: lighter;
+    font-size: 17px;
+    text-align: center;
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    #particles-js{
+        height: 1150px;
+    }
+    .info{
+        display: none;
+    }
+    .social-links{
+        padding-bottom: 0px;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 521px) and (max-width: 767px){
+    #particles-js{
+        height: 1250px;
+    }
+    .info{
+        display: none;
+    }
+    .social-links{
+        padding-bottom: 0px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 482px) and (max-width: 520px){
+    #particles-js{
+        height: 1300px;
+    }
+    .info{
+        display: none;
+    }
+    .social-links{
+        padding-bottom: 0px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 481px){
+    #particles-js{
+        height: 1150px;
+    }
+    .bnr-sub-title-1{
+        font-size: 27px;
+        margin: 0px;
+        
+    }
+    .info{
+        display: none;
+    }
+    iframe{
+        height: 250px;
+        
+    }
+    .social-links{
+        padding-bottom: 0px;
+        text-align: center;
+    }
+}
